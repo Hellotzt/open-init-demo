@@ -1,0 +1,11 @@
+logs/
+/target/
+/src/main/resources/bootstrap-test.yml
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+# system ignore
+.DS_Store
+Thumbs.db
