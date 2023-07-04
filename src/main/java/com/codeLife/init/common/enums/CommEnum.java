@@ -8,20 +8,20 @@ public class CommEnum {
         /**
          * 未删除
          */
-        UN_DELETED("0","未删除"),
+        UN_DELETED(0,"未删除"),
         /**
          * 已删除
          */
-        DELETED("1","已删除"),
+        DELETED(1,"已删除"),
         ;
-        private final String code;
+        private final Integer code;
         private final String msg;
-        DeletedEnum(String code, String desc) {
+        DeletedEnum(Integer code, String desc) {
             this.code = code;
             this.msg = desc;
         }
 
-        public String getCode() {
+        public Integer getCode() {
             return code;
         }
         public String getMsg() {
